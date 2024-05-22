@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Data</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(bgg.jpg);
+            font-size: larger;
+            background-size: cover;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1{
+            font-size: 50px;
+            color: white;
+        }
+        .header p{
+            font-size: 30px;
+            color: white;
+        }
+        .header h3{
+            font-size: 30px;
+            color: white;
+            margin: 15px;
+            padding: 16px;
+        }
+        #dataDisplay {
+            font-size: 20px;
+            color: #fff;
+            margin: 20px;
+            padding: 20px;
+            background-color: #110d0d;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border : 2px solid white
+            ;
+        }
+
+        #data {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #1abc9c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #16a085;
+        }
+        .container{
+            text-align: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>WELCOME </h1>
+        <p>to</p>
+        <h3>Smart Parking System</h3>
+    </div>
+    <div id="data-container">
+        <div id="vehicle-number" class="data-element"></div>
+        <div id="date" class="data-element"></div>
+        <div id="time" class="data-element"></div>
+    </div>
+    <div class="slot">
+        Go to slot : P23 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

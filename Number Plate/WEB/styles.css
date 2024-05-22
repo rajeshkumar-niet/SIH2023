@@ -1,0 +1,115 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and add some spacing */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Center the content on the page */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style the container for data */
+#data-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Add transform animation on hover */
+}
+
+/* Add hover effect to the data container */
+#data-container:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
+/* Style the data elements */
+.data-element {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s, transform 0.3s ease; /* Add background-color and transform animations */
+}
+
+/* Change background color and scale up when the data elements change */
+#data-container.animating .data-element {
+    background-color: #60b8f2;
+    color: #fff;
+    transform: scale(1.05); /* Slightly increase size on change */
+}
+
+/* Add some spacing between data elements */
+#date {
+    margin-top: 10px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #3498db;
+    color: #d01717;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s; /* Add background-color animation on hover */
+}
+.slot{
+    font-size: xx-large;
+    color: #d01717  ;
+    background-color: #60b8f2;
+    width: auto%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 60px;
+    padding: 40px;
+    
+    border-radius: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s; /* Add background-color animation on hover */
+}
+.slot p {
+    font-size: xx-large;
+    width: 70%;
+    /* text-align: center;/ */
+    /* margin-top: 20px; */
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s; /* Add background-color animation on hover */
+}
+/* Add hover effect to table rows */
+tr:hover {
+    background-color: #f5f5f5;
+}
